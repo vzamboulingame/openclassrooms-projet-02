@@ -27,6 +27,15 @@ body {
   font-size: 1.6rem;
 }
 
+header {
+  height: 20rem;
+}
+
+footer {
+  background: var(--color-light-gray);
+  height: 30rem;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -62,7 +71,6 @@ a {
 #main-navbar {
   display: flex;
   justify-content: space-between;
-  height: 20rem;
 }
 
 #main-logo {
@@ -90,8 +98,7 @@ a {
 #main-menu ul li:hover,
 #main-menu ul li:focus {
   color: var(--color-blue);
-  transition: var(--transition);
-  border-top: var(--color-blue) solid 0.3rem;
+  border-top: var(--color-blue) solid 0.5rem;
 }
 
 /* MEDIA QUERIES SECTION */
