@@ -25,8 +25,6 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
-  width: 90%;
-  margin: 0 auto;
 }
 
 img {
@@ -54,6 +52,11 @@ a {
   outline: blue 1px solid;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* ID SECTION */
 
 #main-navbar {
@@ -70,13 +73,6 @@ a {
 #main-menu {
   width: 40rem;
 }
-
-/* #main-logo,
-#main-menu,
-#main-menu ul,
-#main-menu ul li {
-  height: 100%;
-} */
 
 #main-logo,
 #main-menu ul {
