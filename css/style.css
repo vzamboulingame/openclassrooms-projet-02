@@ -100,13 +100,13 @@ a {
 
 /* MEDIA QUERIES SECTION */
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   html {
     font-size: 60%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   html {
     font-size: 55%;
   }
