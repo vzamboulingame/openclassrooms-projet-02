@@ -69,33 +69,33 @@ a {
 
 /* ID SECTION */
 
-#main-navbar {
+#header-container {
   justify-content: space-between;
 }
 
-#main-logo {
+#header-logo {
   width: 20rem;
   padding: 1em;
 }
 
-#main-menu {
+#header-menu {
   width: 40rem;
 }
 
-#main-logo,
-#main-menu ul {
+#header-logo,
+#header-menu ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#main-menu ul li {
+#header-menu ul li {
   font-size: 2.4rem;
   padding: 3.5em 1.5em;
 }
 
-#main-menu ul li:hover,
-#main-menu ul li:focus {
+#header-menu ul li:hover,
+#header-menu ul li:focus {
   color: var(--color-blue);
   border-top: var(--color-blue) solid 0.5rem;
 }
