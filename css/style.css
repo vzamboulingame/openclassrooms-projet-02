@@ -106,6 +106,15 @@ a {
   box-shadow: 0 4px 0 inset var(--color-blue);
 }
 
+#main-container {
+  flex-direction: column;
+}
+
+#sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 #footer-container {
   align-items: flex-start;
   justify-content: space-between;
