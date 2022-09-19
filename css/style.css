@@ -100,6 +100,11 @@ a {
   border-top: var(--color-blue) solid 0.5rem;
 }
 
+#footer-container {
+  justify-content: space-between;
+  padding: 3em 0;
+}
+
 /* MEDIA QUERIES SECTION */
 
 @media (max-width: 1280px) {
