@@ -89,19 +89,19 @@ a {
 }
 
 #header-logo,
-#header-menu ul {
+#header-menu-list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#header-menu ul li {
+#header-menu-list li {
   font-size: 2.4rem;
   padding: 3.5em 1.5em;
 }
 
-#header-menu ul li:hover,
-#header-menu ul li:focus {
+#header-menu-list li:hover,
+#header-menu-list li:focus {
   color: var(--color-blue);
   box-shadow: 0 4px 0 inset var(--color-blue);
 }
