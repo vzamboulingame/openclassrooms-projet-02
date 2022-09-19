@@ -102,7 +102,7 @@ a {
 #header-menu ul li:hover,
 #header-menu ul li:focus {
   color: var(--color-blue);
-  border-top: var(--color-blue) solid 0.5rem;
+  box-shadow: 0 2px 0 var(--color-blue) inset;
 }
 
 #footer-container {
