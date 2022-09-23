@@ -47,6 +47,18 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+form {
+  font-size: 2.4rem;
+}
+
 /* CLASS SECTION */
 
 .red {
@@ -142,7 +154,7 @@ a {
 }
 
 #search-section p {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 /* MEDIA QUERIES SECTION */
