@@ -232,8 +232,7 @@ form {
 }
 
 #search-input:focus {
-  outline: none;
-  border: var(--color-blue) solid 0.3rem;
+  outline: var(--color-blue) solid 0.2rem;
 }
 
 #search-btn {
