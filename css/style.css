@@ -157,6 +157,7 @@ form {
 
 #header-logo {
   width: 20rem;
+  min-width: 15rem;
   padding: 1em;
 }
 
