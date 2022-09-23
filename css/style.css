@@ -159,50 +159,14 @@ form {
 
 /* MEDIA QUERIES SECTION */
 
-@media (max-width: 1280px) {
-  html {
-    font-size: 60%;
-  }
-}
-
 @media (max-width: 992px) {
-  html {
-    font-size: 55%;
-  }
-}
-
-@media (max-width: 768px) {
   html {
     font-size: 50%;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   html {
     font-size: 40%;
-  }
-}
-
-@media (max-width: 480px) {
-  html {
-    font-size: 35%;
-  }
-}
-
-@media (max-width: 376px) {
-  html {
-    font-size: 30%;
-  }
-}
-
-@media (max-width: 340px) {
-  html {
-    font-size: 25%;
-  }
-}
-
-@media (max-width: 300px) {
-  html {
-    font-size: 20%;
   }
 }
