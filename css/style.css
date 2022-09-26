@@ -50,7 +50,7 @@ a {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 h2 {
@@ -281,6 +281,43 @@ form {
   border: 0.2rem solid var(--color-light-gray);
   color: var(--color-blue);
   background: var(--color-white);
+}
+
+#sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sub-container * {
+  margin: 0;
+}
+
+#accommodations-section,
+#popular-section {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-light-gray);
+  height: 50rem;
+  padding: 2em;
+  border-radius: 2rem;
+}
+
+#accommodations-section {
+  width: 60%;
+}
+
+#popular-section {
+  width: 35%;
+}
+
+#popular-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#popular-title-container > .fa-solid {
+  font-size: 2.4rem;
 }
 
 /* MEDIA QUERIES SECTION */
