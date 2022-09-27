@@ -91,11 +91,12 @@ form {
 .search-form {
   display: flex;
   align-items: center;
+  height: 6rem;
   margin: 1.5em 0;
 }
 
 .search-form * {
-  height: 6rem;
+  height: 100%;
 }
 
 .search-form > .fa-solid {
@@ -104,8 +105,7 @@ form {
   justify-content: center;
   width: 6rem;
   height: 6rem;
-  border: none;
-  outline: 0.2rem solid var(--color-light-gray);
+  border: 0.2rem solid var(--color-light-gray);
   border-radius: 2rem 0 0 2rem;
   background-color: var(--color-light-gray);
 }
@@ -135,8 +135,7 @@ form {
   font-weight: 700;
   margin-right: 1em;
   white-space: nowrap;
-  border: none;
-  outline: solid 0.2rem var(--color-light-gray);
+  border: solid 0.2rem var(--color-light-gray);
   border-radius: 8rem;
 }
 
@@ -158,7 +157,7 @@ form {
   align-items: center;
   justify-content: center;
   width: 6rem;
-  height: 6rem;
+  height: 100%;
   font-size: 2.4rem;
   border-radius: 50%;
   color: var(--color-blue);
@@ -290,22 +289,19 @@ form {
 #search-input {
   padding: 0 1em;
   font-weight: 500;
-  border: none;
-  outline: 0.2rem solid var(--color-light-gray);
+  border: 0.2rem solid var(--color-light-gray);
 }
 
 #search-input:focus {
-  outline: var(--color-blue) solid 0.2rem;
+  outline: 0.2rem solid var(--color-blue);
 }
 
 #search-btn {
-  border: none;
-  border-radius: 0 2rem 2rem 0;
-  padding: 0 1em;
   background-color: var(--color-blue);
   color: var(--color-white);
-  border: none;
-  outline: 0.2rem solid var(--color-blue);
+  border: 0.2rem solid var(--color-blue);
+  border-radius: 0 2rem 2rem 0;
+  padding: 0 1em;
   font-weight: 600;
 }
 
@@ -313,8 +309,7 @@ form {
 #search-btn:focus {
   color: var(--color-blue);
   background: var(--color-light-blue);
-  border: none;
-  outline: 0.2rem solid var(--color-light-blue);
+  border: 0.2rem solid var(--color-light-blue);
   transition: var(--transition-time);
   cursor: pointer;
 }
