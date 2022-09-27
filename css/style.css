@@ -184,7 +184,6 @@ form {
 .card {
   display: flex;
   background: var(--color-white);
-  border: 0.6rem solid var(--color-white);
   border-radius: var(--border-radius-size);
   box-shadow: rgba(100, 100, 111, 0.2) 0 0.7rem 2.9rem 0;
 }
@@ -201,6 +200,7 @@ form {
   height: 25vh;
   align-items: center;
   justify-content: flex-start;
+  border: 0.6rem solid var(--color-white);
 }
 
 .accommodations-card-img {
@@ -216,13 +216,13 @@ form {
   justify-content: space-evenly;
   width: 100%;
   height: 40%;
-  padding: 0 0.5em 0 0.5em;
+  padding: 0 1em;
 }
 
 .accommodations-expand-link {
   font-size: 2.4rem;
   font-weight: 700;
-  margin: 2em 0 0 0;
+  margin: 2em 0;
 }
 
 .popular-card {
@@ -230,6 +230,7 @@ form {
   height: 18vh;
   align-items: center;
   justify-content: space-between;
+  border: 0.6rem solid var(--color-white);
 }
 
 .popular-card-img {
@@ -271,6 +272,28 @@ form {
 .rating-star-gray {
   font-size: 1.8rem;
   color: var(--color-dark-gray);
+}
+
+.activities-card {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 100%;
+}
+
+.activities-card-img {
+  height: 85%;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.activities-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 15%;
+  padding: 0 1em;
+  border-radius: 0 0 2rem 2rem;
 }
 
 /* ID SECTION */
@@ -382,6 +405,7 @@ form {
   display: flex;
   justify-content: space-between;
   height: 75vh;
+  margin: 1em 0;
 }
 
 #accommodations-section,
@@ -424,6 +448,24 @@ form {
 
 #popular-title-container > .fa-solid {
   font-size: 2.4rem;
+}
+
+#activities-section {
+  width: 100%;
+  margin: 2em 0;
+}
+
+#activities-title {
+  margin: 1em 0;
+}
+
+#activities-card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 5%;
+  width: 100%;
+  height: 40vh;
 }
 
 /* MEDIA QUERIES SECTION */
