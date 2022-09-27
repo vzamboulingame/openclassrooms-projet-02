@@ -53,15 +53,19 @@ a {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
+}
+
+h4 {
+  font-size: 2.4rem;
 }
 
 p {
@@ -169,7 +173,7 @@ form {
 }
 
 .footer-list-item {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-top: 1.5em;
 }
 
@@ -214,6 +218,10 @@ form {
   height: 100%;
   padding: 0.8em 0 0.5em 0;
   border-radius: var(--border-radius-size);
+}
+
+.popular-card-price {
+  font-size: 2rem;
 }
 
 .rating-star-array {
