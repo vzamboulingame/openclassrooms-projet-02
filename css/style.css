@@ -277,7 +277,7 @@ form {
 .activities-card {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   height: 100%;
 }
 
