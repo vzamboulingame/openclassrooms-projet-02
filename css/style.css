@@ -220,7 +220,8 @@ form {
 .accommodations-card {
   flex-direction: column;
   width: 30%;
-  height: 25rem;
+  height: 30rem;
+  max-height: 30rem;
   align-items: center;
   justify-content: flex-start;
   border: 0.6rem solid var(--color-white);
@@ -245,7 +246,6 @@ form {
 .accommodations-expand-link {
   font-size: 2.4rem;
   font-weight: 700;
-  margin: 2em 0;
 }
 
 .accommodations-card-price,
@@ -259,7 +259,8 @@ form {
 
 .popular-card {
   width: 100%;
-  height: 18rem;
+  height: 20rem;
+  max-height: 20rem;
   align-items: center;
   justify-content: space-between;
   border: 0.6rem solid var(--color-white);
@@ -290,26 +291,78 @@ form {
 * CLASS - ACTIVITIES
 *****************************************/
 
+.activities-card-container {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 10%;
+  column-gap: 5%;
+  width: 100%;
+  height: 60rem;
+  margin: 2em 0;
+}
+
 .activities-card {
   display: flex;
   flex-direction: column;
-  width: 21%;
+  width: 21.25%;
   height: 100%;
 }
 
 .activities-card-img {
-  height: 85%;
+  height: calc(100% - 6rem);
   border-radius: 2rem 2rem 0 0;
 }
 
 .activities-card-text {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  height: 15%;
+  align-items: center;
+  height: 6rem;
   padding: 0 1em;
-  border-radius: 0 0 2rem 2rem;
+}
+
+.height-100 {
+  height: 100%;
+  max-height: 100%;
+}
+
+.height-65 {
+  height: 65%;
+  max-height: 65%;
+}
+
+.height-60 {
+  height: 60%;
+  max-height: 60%;
+}
+
+.height-55 {
+  height: 55%;
+  max-height: 55%;
+}
+
+.height-50 {
+  height: 50%;
+  max-height: 50%;
+}
+
+.height-45 {
+  height: 45%;
+  max-height: 45%;
+}
+
+.height-40 {
+  height: 40%;
+  max-height: 40%;
+}
+
+.height-35 {
+  height: 35%;
+  max-height: 35%;
+}
+
+.height-30 {
+  height: 30%;
+  max-height: 30%;
 }
 
 /*****************************************
@@ -374,7 +427,7 @@ form {
 #sub-container {
   display: flex;
   justify-content: space-between;
-  height: 80rem;
+  height: 90rem;
   margin: 1em 0;
 }
 
@@ -415,7 +468,7 @@ form {
 }
 
 /*****************************************
-* ID - ACCOMMODATIONS
+* ID - ACCOMMODATIONS COUNT
 *****************************************/
 
 #accommodations-count-info {
@@ -441,6 +494,10 @@ form {
   background: var(--color-white);
 }
 
+/*****************************************
+* ID - ACCOMMODATIONS
+*****************************************/
+
 #accommodations-section,
 #popular-section {
   display: flex;
@@ -461,7 +518,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   column-gap: 5%;
-  row-gap: 8%;
+  row-gap: 10%;
   width: 100%;
   height: 100%;
 }
@@ -494,16 +551,6 @@ form {
 #activities-section {
   width: 100%;
   margin: 3em 0;
-}
-
-#activities-card-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  column-gap: 5%;
-  width: 100%;
-  height: 50rem;
-  margin: 2em 0;
 }
 
 /*****************************************
