@@ -214,20 +214,6 @@ form {
 }
 
 /*****************************************
-* CLASS - FOOTER
-*****************************************/
-
-.footer-list-item {
-  font-size: 2.2rem;
-  margin: 1.5em 0 0 0;
-}
-
-.footer-list-item:hover,
-.footer-list-item:focus {
-  color: var(--color-blue);
-}
-
-/*****************************************
 * CLASS - ACCOMMODATIONS
 *****************************************/
 
@@ -327,6 +313,20 @@ form {
 }
 
 /*****************************************
+* CLASS - FOOTER
+*****************************************/
+
+.footer-list-item {
+  font-size: 2.2rem;
+  margin: 1.5em 0 0 0;
+}
+
+.footer-list-item:hover,
+.footer-list-item:focus {
+  color: var(--color-blue);
+}
+
+/*****************************************
 * ID - HEADER
 *****************************************/
 
@@ -412,21 +412,6 @@ form {
   border: 0.2rem solid var(--color-light-blue);
   transition: var(--transition-time);
   cursor: pointer;
-}
-
-/*****************************************
-* ID - FOOTER
-*****************************************/
-
-#footer-container {
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 3em 0;
-}
-
-#invisible-nav-block {
-  display: block;
-  width: 10%;
 }
 
 /*****************************************
@@ -519,6 +504,21 @@ form {
   width: 100%;
   height: 50rem;
   margin: 2em 0;
+}
+
+/*****************************************
+* ID - FOOTER
+*****************************************/
+
+#footer-container {
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 3em 0;
+}
+
+#invisible-nav-block {
+  display: block;
+  width: 10%;
 }
 
 /*****************************************
