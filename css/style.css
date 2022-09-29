@@ -426,7 +426,6 @@ form {
 #sub-container {
   display: flex;
   justify-content: space-between;
-  height: 90rem;
   margin: 1em 0;
 }
 
@@ -505,6 +504,7 @@ form {
   justify-content: space-between;
   column-gap: 5%;
   row-gap: 5%;
+  height: 90rem;
   padding: 3em;
   border-radius: var(--border-radius-size);
 }
@@ -571,20 +571,42 @@ form {
 * MEDIA QUERIES
 *****************************************/
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1366px) {
   html {
     font-size: 50%;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
   html {
     font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 35%;
+  }
+
+  #sub-container {
+    flex-flow: column wrap;
+    row-gap: 4em;
+  }
+
+  #accommodations-section,
+  #popular-section {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   html {
     font-size: 30%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  html {
+    font-size: 25%;
   }
 }
