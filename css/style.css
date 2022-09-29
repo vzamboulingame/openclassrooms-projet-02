@@ -370,7 +370,7 @@ form {
 
 .footer-list-item {
   font-size: 2.2rem;
-  margin: 1.5em 0 0 0;
+  margin: 1em 0 0 0;
 }
 
 .footer-list-item:hover,
@@ -558,13 +558,8 @@ form {
 
 #footer-container {
   align-items: flex-start;
-  justify-content: space-between;
+  column-gap: 15%;
   padding: 3em 0;
-}
-
-#invisible-nav-block {
-  display: block;
-  width: 10%;
 }
 
 /*****************************************
