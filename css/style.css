@@ -575,7 +575,7 @@ form {
 @media only screen and (max-width: 1366px) {
   /* From this breakpoint the font size will be sized down proportionally to viewport size */
   html {
-    font-size: calc(62.5% - 0.2vw);
+    font-size: calc(62.5% - 0.3vw);
   }
 }
 
