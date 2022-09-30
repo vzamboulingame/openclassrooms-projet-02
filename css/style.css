@@ -576,7 +576,7 @@ form {
 
 @media only screen and (max-width: 992px) {
   #sub-container {
-    flex-flow: column wrap;
+    flex-flow: wrap column-reverse;
     row-gap: 4em;
   }
 
