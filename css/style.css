@@ -584,6 +584,20 @@ form {
   #popular-section {
     width: 100%;
   }
+
+  #accommodations-section {
+    height: 125rem;
+  }
+
+  #accommodations-card-container {
+    column-gap: 4%;
+    row-gap: 4%;
+  }
+
+  .accommodations-card {
+    width: 48%;
+    height: 30rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
