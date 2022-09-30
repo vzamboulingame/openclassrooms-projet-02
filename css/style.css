@@ -107,6 +107,12 @@ form {
   transition: var(--transition-time);
 }
 
+.card:hover h3,
+.card:focus h3 {
+  color: var(--color-blue);
+  transition: var(--transition-time);
+}
+
 .rating-star-array {
   display: flex;
   column-gap: 0.2em;
