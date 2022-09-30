@@ -568,7 +568,6 @@ form {
 
 @media only screen and (max-width: 1366px) {
   /* From this breakpoint the font size will be sized down proportionally to viewport size */
-
   html {
     font-size: calc(62.5% - 0.2vw);
   }
@@ -583,20 +582,50 @@ form {
   #accommodations-section,
   #popular-section {
     width: 100%;
+    height: auto;
+  }
+
+  #popular-title-container {
+    margin: 1em 0;
+  }
+
+  .popular-card {
+    margin: 1em 0;
   }
 
   #accommodations-section {
-    height: 125rem;
+    height: auto;
   }
 
   #accommodations-card-container {
     column-gap: 4%;
-    row-gap: 4%;
+    row-gap: unset;
+    margin: 1em 0;
   }
 
   .accommodations-card {
     width: 48%;
-    height: 30rem;
+    margin: 1em 0;
+  }
+
+  #activities-section {
+    margin: 2em 0 1em 0;
+  }
+
+  .activities-card-container {
+    flex-flow: row wrap;
+    column-gap: unset;
+    row-gap: unset;
+    height: auto;
+    margin: 1em 0;
+  }
+
+  .activities-card {
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 100%;
+    margin: 1em 0;
   }
 }
 
