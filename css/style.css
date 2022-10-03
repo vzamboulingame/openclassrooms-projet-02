@@ -135,6 +135,7 @@ form {
   display: flex;
   align-items: center;
   height: 6rem;
+  width: fit-content;
   margin: 1.5em 0;
 }
 
@@ -151,6 +152,10 @@ form {
   border: 0.2rem solid var(--color-light-gray);
   border-radius: 2rem 0 0 2rem;
   background-color: var(--color-light-gray);
+}
+
+.search-btn-logo {
+  display: none;
 }
 
 /*****************************************
@@ -449,7 +454,7 @@ form {
 }
 
 #search-input:focus {
-  outline: 0.2rem solid var(--color-blue);
+  outline: none;
 }
 
 #search-btn {
@@ -683,9 +688,30 @@ form {
     align-items: center;
     justify-content: center;
     width: 100%;
+    outline: 0.2rem solid var(--color-light-gray);
+    border-radius: 2rem;
   }
 
   .search-form * {
     width: 100%;
+  }
+
+  #search-input {
+    border: none;
+  }
+
+  #search-btn {
+    width: 6rem;
+    border-radius: 2rem;
+  }
+
+  .search-btn-text {
+    display: none;
+  }
+
+  .search-btn-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
