@@ -572,7 +572,7 @@ form {
 *****************************************/
 
 @media only screen and (max-width: 1366px) {
-  /* From this breakpoint the font size will be sized down proportionally to viewport size */
+  /* From this breakpoint the font size will be decreased proportionally to viewport size */
   html {
     font-size: calc(62.5% - 0.3vw);
   }
@@ -635,4 +635,43 @@ form {
 }
 
 @media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  #header-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header-logo {
+    width: min-content;
+    padding: 1em 0;
+  }
+  #header-menu {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  #header-menu-list li {
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    padding: 1em 0;
+    box-shadow: 0 -2px 0 inset var(--color-light-gray);
+  }
+
+  #header-menu-list > li:hover,
+  #header-menu-list > li:focus {
+    color: var(--color-blue);
+    box-shadow: 0 -2px 0 inset var(--color-blue);
+    transition: var(--transition-time);
+  }
+
+  #main-container {
+    margin: 1.5em 0;
+  }
 }
