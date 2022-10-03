@@ -374,6 +374,16 @@ form {
 * CLASS - FOOTER
 *****************************************/
 
+.footer-container {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3em 0;
+}
+
+.footer-nav {
+  width: calc(100% / 3);
+}
+
 .footer-nav-title {
   font-size: 2.6rem;
 }
@@ -560,16 +570,6 @@ form {
 #activities-section {
   width: 100%;
   margin: 3em 0;
-}
-
-/*****************************************
-* ID - FOOTER
-*****************************************/
-
-#footer-container {
-  align-items: flex-start;
-  column-gap: 15%;
-  padding: 3em 0;
 }
 
 /*****************************************
