@@ -55,7 +55,7 @@ a {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 h2 {
@@ -142,12 +142,12 @@ form {
   height: 100%;
 }
 
-.search-form > .fa-solid {
+.search-form > .fa-location-dot {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 6rem;
-  height: 6rem;
+  min-width: 6rem;
   border: 0.2rem solid var(--color-light-gray);
   border-radius: 2rem 0 0 2rem;
   background-color: var(--color-light-gray);
@@ -640,6 +640,7 @@ form {
   }
 
   #header-container {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -666,12 +667,25 @@ form {
 
   #header-menu-list > li:hover,
   #header-menu-list > li:focus {
-    color: var(--color-blue);
     box-shadow: 0 -2px 0 inset var(--color-blue);
-    transition: var(--transition-time);
   }
 
   #main-container {
-    margin: 1.5em 0;
+    margin: 1em 0;
+  }
+
+  #search-section {
+    text-align: center;
+    padding: 0 1em;
+  }
+
+  .search-form {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .search-form * {
+    width: 100%;
   }
 }
