@@ -675,13 +675,9 @@ form {
     box-shadow: 0 -2px 0 inset var(--color-blue);
   }
 
-  #main-container {
-    margin: 1em 0;
-  }
-
   #search-section {
-    text-align: center;
-    padding: 0 1em;
+    text-align: justify;
+    padding: 2em;
   }
 
   .search-form {
@@ -713,5 +709,9 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .filter-list-title {
+    width: 100%;
   }
 }
