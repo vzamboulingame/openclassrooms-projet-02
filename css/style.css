@@ -4,6 +4,7 @@
 
 :root {
   --color-white: #ffffff;
+  --color-black: #000000;
   --color-blue: #0065fc;
   --color-light-blue: #deebff;
   --color-light-gray: #f2f2f2;
@@ -137,6 +138,7 @@ form {
   height: 6rem;
   width: fit-content;
   margin: 1.5em 0;
+  border-radius: var(--border-radius-size);
 }
 
 .search-form * {
@@ -460,11 +462,18 @@ form {
 #search-input {
   padding: 0 1em;
   font-weight: 500;
-  border: 0.2rem solid var(--color-light-gray);
+  border-top: 0.2rem solid var(--color-light-gray);
+  border-bottom: 0.2rem solid var(--color-light-gray);
+  border-left: none;
+  border-right: none;
 }
 
 #search-input:focus {
   outline: none;
+}
+
+#search-input::placeholder {
+  color: var(--color-black);
 }
 
 #search-btn {
@@ -680,25 +689,22 @@ form {
     padding: 2em;
   }
 
+  #search-input {
+    border: none;
+  }
+
   .search-form {
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    outline: 0.2rem solid var(--color-light-gray);
-    border-radius: 2rem;
+    border: 0.2rem solid var(--color-light-gray);
   }
 
   .search-form * {
     width: 100%;
   }
 
-  #search-input {
-    border: none;
-  }
-
   #search-btn {
     width: 6rem;
-    border-radius: 2rem;
+    border-radius: var(--border-radius-size);
   }
 
   .search-btn-text {
