@@ -193,8 +193,7 @@ form {
 }
 
 .filter-list-item:hover,
-.filter-list-item:focus,
-.filter-list-item:active {
+.filter-list-item:focus {
   color: var(--color-blue);
   background: var(--color-light-blue);
   transition: var(--transition-time);
