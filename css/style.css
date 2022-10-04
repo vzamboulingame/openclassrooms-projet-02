@@ -302,6 +302,24 @@ form {
 * CLASS - ACCOMMODATIONS
 *****************************************/
 
+.accommodations-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5%;
+  row-gap: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.accommodations-title-container,
+.popular-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.8rem;
+  margin: 1em 0 0 0;
+}
+
 .accommodations-card {
   flex-direction: column;
   width: 30%;
@@ -370,6 +388,10 @@ form {
 
 .popular-card-text > .rating-star-array {
   margin: 2em 0 0 0;
+}
+
+.popular-title-container > .fa-solid {
+  font-size: 2.4rem;
 }
 
 /*****************************************
@@ -527,36 +549,6 @@ form {
 }
 
 /*****************************************
-* ID - ACCOMMODATIONS
-*****************************************/
-
-#accommodations-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 5%;
-  row-gap: 10%;
-  width: 100%;
-  height: 100%;
-}
-
-#accommodations-title-container,
-#popular-title-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 2.8rem;
-  margin: 1em 0 0 0;
-}
-
-/*****************************************
-* ID - POPULAR
-*****************************************/
-
-#popular-title-container > .fa-solid {
-  font-size: 2.4rem;
-}
-
-/*****************************************
 * MEDIA QUERIES
 *****************************************/
 
@@ -579,7 +571,7 @@ form {
     height: auto;
   }
 
-  #popular-title-container {
+  .popular-title-container {
     margin: 1em 0;
   }
 
@@ -591,7 +583,7 @@ form {
     height: auto;
   }
 
-  #accommodations-card-container {
+  .accommodations-card-container {
     column-gap: 4%;
     row-gap: unset;
     margin: 1em 0;
