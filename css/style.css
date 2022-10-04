@@ -447,6 +447,36 @@ form {
 }
 
 /*****************************************
+* ID - SECTIONS
+*****************************************/
+
+#accommodations-section,
+#popular-section {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-light-gray);
+  justify-content: space-between;
+  column-gap: 5%;
+  row-gap: 5%;
+  height: 90rem;
+  padding: 3em;
+  border-radius: var(--border-radius-size);
+}
+
+#accommodations-section {
+  width: 66%;
+}
+
+#popular-section {
+  width: 32%;
+}
+
+#activities-section {
+  width: 100%;
+  margin: 3em 0;
+}
+
+/*****************************************
 * ID - FORM ELEMENTS
 *****************************************/
 
@@ -520,23 +550,6 @@ form {
 * ID - ACCOMMODATIONS
 *****************************************/
 
-#accommodations-section,
-#popular-section {
-  display: flex;
-  flex-direction: column;
-  background: var(--color-light-gray);
-  justify-content: space-between;
-  column-gap: 5%;
-  row-gap: 5%;
-  height: 90rem;
-  padding: 3em;
-  border-radius: var(--border-radius-size);
-}
-
-#accommodations-section {
-  width: 66%;
-}
-
 #accommodations-card-container {
   display: flex;
   flex-wrap: wrap;
@@ -559,21 +572,8 @@ form {
 * ID - POPULAR
 *****************************************/
 
-#popular-section {
-  width: 32%;
-}
-
 #popular-title-container > .fa-solid {
   font-size: 2.4rem;
-}
-
-/*****************************************
-* ID - ACTIVITIES
-*****************************************/
-
-#activities-section {
-  width: 100%;
-  margin: 3em 0;
 }
 
 /*****************************************
