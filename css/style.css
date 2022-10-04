@@ -662,6 +662,7 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
   }
 
   #header-logo {
@@ -690,6 +691,7 @@ form {
 
   #search-section {
     text-align: justify;
+    margin: 0;
     padding: 2em;
   }
 
@@ -723,6 +725,21 @@ form {
 
   .filter-list-title {
     width: 100%;
+  }
+
+  #sub-container {
+    margin: 1em 0;
+  }
+
+  #accommodations-count-info {
+    margin: 0;
+  }
+
+  #accommodations-section,
+  #popular-section {
+    margin: 0;
+    padding: 2em;
+    border-radius: unset;
   }
 }
 
