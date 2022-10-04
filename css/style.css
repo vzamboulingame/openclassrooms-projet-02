@@ -193,16 +193,12 @@ form {
 }
 
 .filter-list-item:hover,
-.filter-list-item:focus {
+.filter-list-item:focus,
+.filter-list-item:active {
   color: var(--color-blue);
   background: var(--color-light-blue);
   transition: var(--transition-time);
   cursor: pointer;
-}
-
-.filter-list-item:active {
-  color: var(--color-white);
-  transition: var(--transition-time);
 }
 
 .filter-list-item > .fa-solid {
