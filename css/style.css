@@ -166,6 +166,20 @@ form {
 }
 
 /*****************************************
+* CLASS - MAIN
+*****************************************/
+
+.main-container {
+  flex-direction: column;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+}
+
+/*****************************************
 * CLASS - SEARCH FORM
 *****************************************/
 
@@ -433,26 +447,8 @@ form {
 }
 
 /*****************************************
-* ID - MAIN
+* ID - FORM ELEMENTS
 *****************************************/
-
-#main-container {
-  flex-direction: column;
-}
-
-#sub-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 1em 0;
-}
-
-/*****************************************
-* ID - SEARCH FORM
-*****************************************/
-
-#search-section > p {
-  font-size: 2rem;
-}
 
 #search-input {
   padding: 0 1em;
@@ -592,7 +588,7 @@ form {
 }
 
 @media only screen and (max-width: 991.98px) {
-  #sub-container {
+  .sub-container {
     flex-flow: wrap column-reverse;
     row-gap: 4em;
   }
@@ -722,7 +718,7 @@ form {
     width: 100%;
   }
 
-  #sub-container {
+  .sub-container {
     margin: 1em 0;
   }
 
