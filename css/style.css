@@ -576,14 +576,14 @@ form {
 * MEDIA QUERIES
 *****************************************/
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1399.98px) {
   /* From this breakpoint the font size will be decreased proportionally to viewport size */
   html {
-    font-size: calc(62.5% - 0.3vw);
+    font-size: calc(62.5% - 0.2vw);
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991.98px) {
   #sub-container {
     flex-flow: wrap column-reverse;
     row-gap: 4em;
@@ -639,7 +639,7 @@ form {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767.98px) {
   .container {
     width: 100%;
   }
@@ -713,5 +713,12 @@ form {
 
   .filter-list-title {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  /* Increasing the font size downsizing ratio for smaller screens */
+  html {
+    font-size: calc(62.5% - 0.6vw);
   }
 }
