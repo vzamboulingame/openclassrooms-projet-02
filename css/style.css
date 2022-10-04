@@ -351,6 +351,12 @@ form {
   font-weight: 700;
 }
 
+.accommodations-expand-link:hover,
+.accommodations-expand-link:focus {
+  color: var(--color-blue);
+  transition: var(--transition-time);
+}
+
 .accommodations-card-price,
 .popular-card-price {
   font-size: 2rem;
@@ -552,23 +558,18 @@ form {
 * MEDIA QUERIES
 *****************************************/
 
+/* From this breakpoint the font size will be decreased proportionally to viewport size */
 @media only screen and (max-width: 1399.98px) {
-  /* From this breakpoint the font size will be decreased proportionally to viewport size */
   html {
     font-size: calc(62.5% - 0.2vw);
   }
 }
 
+/* Tablet media queries */
 @media only screen and (max-width: 991.98px) {
   .sub-container {
     flex-flow: wrap column-reverse;
     row-gap: 4em;
-  }
-
-  #accommodations-section,
-  #popular-section {
-    width: 100%;
-    height: auto;
   }
 
   .popular-title-container {
@@ -577,10 +578,6 @@ form {
 
   .popular-card {
     margin: 1em 0;
-  }
-
-  #accommodations-section {
-    height: auto;
   }
 
   .accommodations-card-container {
@@ -592,10 +589,6 @@ form {
   .accommodations-card {
     width: 48%;
     margin: 1em 0;
-  }
-
-  #activities-section {
-    margin: 2em 0 1em 0;
   }
 
   .activities-card-container {
@@ -613,8 +606,19 @@ form {
     width: 100%;
     margin: 1em 0;
   }
+
+  #accommodations-section,
+  #popular-section {
+    width: 100%;
+    height: auto;
+  }
+
+  #activities-section {
+    margin: 2em 0 1em 0;
+  }
 }
 
+/* Phone media queries */
 @media only screen and (max-width: 767.98px) {
   .container {
     width: 100%;
@@ -652,16 +656,6 @@ form {
     box-shadow: 0 -2px 0 inset var(--color-blue);
   }
 
-  #search-section {
-    text-align: justify;
-    margin: 0;
-    padding: 2em;
-  }
-
-  #search-input {
-    border: none;
-  }
-
   .search-form {
     width: 100%;
     border: 0.2rem solid var(--color-light-gray);
@@ -669,11 +663,6 @@ form {
 
   .search-form * {
     width: 100%;
-  }
-
-  #search-btn {
-    width: 6rem;
-    border-radius: var(--border-radius-size);
   }
 
   .search-btn-text {
@@ -690,24 +679,49 @@ form {
     width: 100%;
   }
 
-  .sub-container {
-    margin: 1em 0;
-  }
-
   .accommodations-count-info {
     margin: 0;
   }
 
+  .sub-container {
+    row-gap: unset;
+    margin: 1em 0;
+  }
+
+  .accommodations-card {
+    height: 25rem;
+    width: 100%;
+  }
+
+  #search-section {
+    text-align: justify;
+  }
+
+  #search-section,
   #accommodations-section,
-  #popular-section {
+  #popular-section,
+  #activities-section {
     margin: 0;
     padding: 2em;
     border-radius: unset;
   }
+
+  #accommodations-section {
+    background: var(--color-white);
+  }
+
+  #search-input {
+    border: none;
+  }
+
+  #search-btn {
+    width: 6rem;
+    border-radius: var(--border-radius-size);
+  }
 }
 
+/* Increasing the font size reduction rate for smaller phone screens */
 @media only screen and (max-width: 575.98px) {
-  /* Increasing the font size downsizing ratio for smaller screens */
   html {
     font-size: calc(62.5% - 0.6vw);
   }
