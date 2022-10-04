@@ -169,7 +169,7 @@ form {
   flex-wrap: wrap;
   column-gap: 2em;
   row-gap: 1em;
-  margin: 2em 0 2em 0;
+  margin: 2em 0;
 }
 
 .filter-list-title {
@@ -184,11 +184,11 @@ form {
   display: flex;
   align-items: center;
   max-width: 100rem;
-  height: 6rem;
+  height: 100%;
   font-size: 2.4rem;
   font-weight: 700;
   white-space: nowrap;
-  border: solid 0.2rem var(--color-light-gray);
+  border: solid 0.3rem var(--color-light-gray);
   border-radius: 8rem;
 }
 
@@ -210,7 +210,7 @@ form {
   align-items: center;
   justify-content: center;
   width: 6rem;
-  height: 100%;
+  height: 6rem;
   font-size: 2.4rem;
   border-radius: 50%;
   color: var(--color-blue);
