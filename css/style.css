@@ -129,6 +129,43 @@ form {
 }
 
 /*****************************************
+* CLASS - HEADER
+*****************************************/
+
+.header-container {
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 20rem;
+  min-width: 15rem;
+  padding: 1em;
+}
+
+.header-menu {
+  width: 40rem;
+}
+
+.header-logo,
+.header-menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-menu-list > li {
+  font-size: 2.4rem;
+  padding: 3em 1.5em;
+}
+
+.header-menu-list > li:hover,
+.header-menu-list > li:focus {
+  color: var(--color-blue);
+  box-shadow: 0 4px 0 inset var(--color-blue);
+  transition: var(--transition-time);
+}
+
+/*****************************************
 * CLASS - SEARCH FORM
 *****************************************/
 
@@ -396,43 +433,6 @@ form {
 }
 
 /*****************************************
-* ID - HEADER
-*****************************************/
-
-#header-container {
-  justify-content: space-between;
-}
-
-#header-logo {
-  width: 20rem;
-  min-width: 15rem;
-  padding: 1em;
-}
-
-#header-menu {
-  width: 40rem;
-}
-
-#header-logo,
-#header-menu-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#header-menu-list > li {
-  font-size: 2.4rem;
-  padding: 3em 1.5em;
-}
-
-#header-menu-list > li:hover,
-#header-menu-list > li:focus {
-  color: var(--color-blue);
-  box-shadow: 0 4px 0 inset var(--color-blue);
-  transition: var(--transition-time);
-}
-
-/*****************************************
 * ID - MAIN
 *****************************************/
 
@@ -652,7 +652,7 @@ form {
     width: 100%;
   }
 
-  #header-container {
+  .header-container {
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -660,18 +660,18 @@ form {
     margin: 0;
   }
 
-  #header-logo {
+  .header-logo {
     width: min-content;
     padding: 1em 0;
   }
-  #header-menu {
+  .header-menu {
     align-items: center;
     justify-content: center;
     width: 100%;
     height: auto;
   }
 
-  #header-menu-list li {
+  .header-menu-list li {
     text-align: center;
     vertical-align: middle;
     width: 50%;
@@ -679,8 +679,8 @@ form {
     box-shadow: 0 -2px 0 inset var(--color-light-gray);
   }
 
-  #header-menu-list > li:hover,
-  #header-menu-list > li:focus {
+  .header-menu-list > li:hover,
+  .header-menu-list > li:focus {
     box-shadow: 0 -2px 0 inset var(--color-blue);
   }
 
