@@ -2,6 +2,10 @@
 
 # Transformez une maquette en site web avec HTML & CSS
 
+![html][html5-badge]
+![css][css3-badge]
+![vscode][vscode-badge]
+
 Projet n°2 de la formation "Développeur d'application - JavaScript React" d'OpenClassrooms
 
 ## Demo
@@ -23,4 +27,17 @@ Avant de valider définitivement le design, l’entreprise a décidé de réalis
 - Implémenter une interface responsive
 - Intégrer du contenu conformément à une maquette
 
+## Contact
+
+Vinodh Zamboulingame
+
+[![linkedin][linkedin-badge]][linkedin-url]
+
 <p align="right"><a href="#readme-top">back to top</a></p>
+
+<!-- BADGE LINKS -->
+[html5-badge]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logoColor=white
+[css3-badge]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logoColor=white
+[vscode-badge]: https://img.shields.io/badge/Made%20with-VSCode-1f425f.svg?style=for-the-badge&logoColor=white
+[linkedin-badge]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white
+[linkedin-url]: https://www.linkedin.com/in/vzamboulingame
