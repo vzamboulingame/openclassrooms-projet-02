@@ -5,6 +5,7 @@
 ![html][html5-badge]
 ![css][css3-badge]
 ![vscode][vscode-badge]
+![w3c][w3c-badge]
 
 ## Demo
 
@@ -25,7 +26,7 @@ Avant de valider définitivement le design, l’entreprise a décidé de réalis
 - Implémenter une interface responsive
 - Intégrer du contenu conformément à une maquette
 
-## Contact
+## Auteur
 
 Vinodh Zamboulingame
 
@@ -37,5 +38,6 @@ Vinodh Zamboulingame
 [html5-badge]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logoColor=white
 [css3-badge]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logoColor=white
 [vscode-badge]: https://img.shields.io/badge/Made%20with-VSCode-1f425f.svg?style=for-the-badge&logoColor=white
+[w3c-badge]: https://img.shields.io/w3c-validation/default?style=for-the-badge&logoColor=white&targetUrl=https%3A%2F%2Fbooki-vza.netlify.app
 [linkedin-badge]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/vzamboulingame
